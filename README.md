@@ -3,7 +3,7 @@
 ### [SonarQube®](https://www.sonarqube.org/) is an automatic code review tool to detect bugs, vulnerabilities, and code smells in your code. It can integrate with your existing workflow to enable continuous code inspection across your project branches and pull requests.
 
 
-You can build and deploy your Sonarqube instance on development or production environment. The benefit of this image is that you can have local volumes as well as docker volumes. The Official image get `AccessDenied` error on using local volumes. To overcome that you have to use Sonarqube Latest version (or at least 9.0) but it also needs Docker version at least 20. By using this image you can easily build and run Sonarqube on older version of Docker with local volumes without any issue.
+You can build and deploy your Sonarqube instance on development or production environment. The benefit of this image is that you can have local volumes as well as docker volumes. The Official image gets `AccessDenied` error on using local volumes. To overcome that you have to use Sonarqube Latest version (or at least 9.0) but it also needs Docker version at least 20. By using this image you can easily build and run Sonarqube on older version of Docker with local volumes without any issue.
 
 ## How to build
 Clone the repo and then build the image:
